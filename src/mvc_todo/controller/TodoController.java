@@ -9,6 +9,11 @@ public class TodoController {
     private TodoModel model;
     private TodoView view;
 
+    /**
+     *
+     * @param model
+     * @param view
+     */
     public TodoController(TodoModel model, TodoView view) {
         this.model = model;
         this.view = view;
